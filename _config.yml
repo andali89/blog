@@ -26,6 +26,8 @@ collections:
   notes:
     output: true    
   contents:
-    output: true  
+    output: true 
+
+excerpt_separator:  <!--excerpt-->  
     
      
