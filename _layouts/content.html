@@ -1,0 +1,22 @@
+---
+layout: page2
+title: Test
+---
+
+
+
+<div class="posts">
+  {% assign posts_by_title = site.jekyll | sort: "title" %}
+    {% for post in posts_by_title %}
+    <div class="post">
+      <h1 class="post-title">
+        <a href="{{ post.url | absolute_url }}">
+          {{ post.title }}
+        </a>
+      </h1>
+  
+      <span class="post-date">{{ post.date | date_to_string }}</span>
+      
+    </div>
+    {% endfor %}
+  </div>
