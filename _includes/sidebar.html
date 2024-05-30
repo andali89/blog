@@ -26,9 +26,11 @@
     {% endif %}
     {% endfor %}
 
-    {% for node in site.data.side.TOC %}    
+    {% for node in site.contents %}
+    {% if node.layout == "page2" or node.layout == "page" %}    
     <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{
-      node.title }}</a>    
+      node.title }}</a> 
+    {% endif %}   
     {% endfor %}
     
     <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
