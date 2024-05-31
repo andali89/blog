@@ -14,9 +14,7 @@ title: Home
     <span class="post-date">{{ post.date | date_to_string }}</span>
     {{ post.excerpt | markdownify }}
     <p>
-      <a href="{{ post.url | absolute_url }}">
-      Read More
-      </a>
+      <a href="{{ post.url | absolute_url }}" class="myButton">Read More</a>
     </p>
     
 
