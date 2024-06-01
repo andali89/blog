@@ -306,6 +306,11 @@ a.sidebar-nav-item:focus {
 .post {
   margin-bottom: 4em;
 }
+.post-card {
+  margin-bottom: 0em;
+  border-top: 2px solid rgb(230, 227, 227);  
+  padding: 2px 16px;  
+}
 
 /* Blog post or page title */
 .page-title,
