@@ -8,7 +8,11 @@ title: Notes
 <div class="posts">
   {% assign posts_by_title = site.notes | sort: "date" %}
   {% for post in posts_by_title %}
+  {% if forloop.index == 1 %}
+  <div class="post-card-first">
+  {% else %}
   <div class="post-card">
+  {% endif %}
     <h1 class="post-title">
       <a href="{{ post.url | absolute_url }}">
         {{ post.title }}
