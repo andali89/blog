@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sort the references in bib file in TexStudio to control autocrlf for LaTeX in Git
+title: Sort the references in bib file in TeXstudio
 ---
 
 If you are willing to sort the references in `.bib` file according to the `article type` and `reference name` in alphabetical order, this article is helpful.
