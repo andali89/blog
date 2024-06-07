@@ -24,7 +24,6 @@ $ python sortBib bibfilename.bib
 2. Select the `Script` option
 3. Type in the Macro name
 4. Type in the following script in textbox
-
 ```javascript
 // get the path of current working file
 var pa = app.getAbsoluteFilePath(app.getCurrentFileName(), ext = "")
@@ -37,3 +36,5 @@ cmd.waitForFinished()
 5. To run the Macro, click on the Macro name shown in the menu after clicking `Macros` on the top of TeXstudio
 
 ![Screen shot of macro setting]({{ site.baseurl}}/assets/pics/macro.png "Macro Setting")
+
+Done!
