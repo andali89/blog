@@ -13,7 +13,7 @@ The steps for the settings includes:
 
 ### Python Script
 
-1. [Click](/assets/scripts/sortBib.py) to download the python script to sort the `.bib`.
+1. [Click]({{ site.baseurl }}/assets/scripts/sortBib.py) to download the python script to sort the `.bib`.
 2. Run the script in cmd
 ```shell
 $ python sortBib bibfilename.bib
@@ -36,4 +36,4 @@ cmd.waitForFinished()
 ```
 4. To run the Macro, click on the Macro name shown in the menu after clicking `Macros` on the top of TeXstudio
 
-![Screen shot of macro setting](/assets/pics/macro.png "Macro Setting")
+![Screen shot of macro setting]({{ site.baseurl}}/assets/pics/macro.png "Macro Setting")
