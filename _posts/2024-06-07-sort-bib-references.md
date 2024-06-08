@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sort the references in bib file in TexStudio to control autocrlf for LaTeX in Git
+title: Sort the references in bib file in TeXstudio
 ---
 
 If you are willing to sort the references in `.bib` file according to the `article type` and `reference name` in alphabetical order, this article is helpful.
@@ -15,6 +15,7 @@ The steps for the settings includes:
 
 1. [Click]({{ site.baseurl }}/assets/scripts/sortBib.py) to download the python script to sort the `.bib`.
 2. Run the script in cmd
+
 ```shell
 $ python sortBib bibfilename.bib
 ```
@@ -23,17 +24,19 @@ $ python sortBib bibfilename.bib
 1. Click on the `Edit Macros`
 2. Select the `Script` option
 3. Type in the Macro name
-4. Type in the following script in textbox
+4. Copy the following script in textbox
 
-```javascript
-// get the path of current working file
+
+```Matlab
+% get the path of current working file
 var pa = app.getAbsoluteFilePath(app.getCurrentFileName(), ext = "")
 var idx = pa.lastIndexOf("/")
 var c_dir = pa.substr(0, idx) 
-// run the script
+% run the script
 cmd = system("python sortBib.py bibfilename.bib", workingDirectory=c_dir)
 cmd.waitForFinished()
 ```
+
 4. To run the Macro, click on the Macro name shown in the menu after clicking `Macros` on the top of TeXstudio
 
 ![Screen shot of macro setting]({{ site.baseurl}}/assets/pics/macro.png "Macro Setting")
