@@ -36,7 +36,7 @@ var c_dir = pa.substr(0, idx)
 cmd = system("python sortBib.py bibfilename.bib", workingDirectory=c_dir)
 cmd.waitForFinished()
 ```
-
-4. To run the Macro, click on the Macro name shown in the menu after clicking `Macros` on the top of TeXstudio
+5. To run the Macro, click on the Macro name shown in the menu after clicking `Macros` on the top of TeXstudio
 
 ![Screen shot of macro setting]({{ site.baseurl}}/assets/pics/macro.png "Macro Setting")
+
