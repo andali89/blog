@@ -27,12 +27,12 @@ $ python sortBib bibfilename.bib
 4. Copy the following script in textbox
 
 
-```Matlab
-% get the path of current working file
+```Javascript
+// get the path of current working file
 var pa = app.getAbsoluteFilePath(app.getCurrentFileName(), ext = "")
 var idx = pa.lastIndexOf("/")
 var c_dir = pa.substr(0, idx) 
-% run the script
+// run the script
 cmd = system("python sortBib.py bibfilename.bib", workingDirectory=c_dir)
 cmd.waitForFinished()
 ```
