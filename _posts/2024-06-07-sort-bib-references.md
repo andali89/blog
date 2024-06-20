@@ -27,7 +27,7 @@ $ python sortBib bibfilename.bib
 4. Copy the following script in textbox
 
 
-```Javascript
+```C
 // get the path of current working file
 var pa = app.getAbsoluteFilePath(app.getCurrentFileName(), ext = "")
 var idx = pa.lastIndexOf("/")
