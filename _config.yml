@@ -6,7 +6,7 @@ url:                 https://andali89.github.io
 baseurl:             '/blog'
 paginate:            5
 permalink:           pretty
-
+excerpt_separator: "<!-- readmore -->"
 # About/contact
 author:
   name:              Mark Otto

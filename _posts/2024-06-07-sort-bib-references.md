@@ -4,7 +4,7 @@ title: Sort the references in bib file in TeXstudio
 ---
 
 If you are willing to sort the references in `.bib` file according to the `article type` and `reference name` in alphabetical order, this article is helpful.
-
+<!-- readmore -->
 
 ## Steps
 The steps for the settings includes:

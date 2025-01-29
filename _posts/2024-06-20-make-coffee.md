@@ -4,7 +4,7 @@ title: 如何制作手冲咖啡
 ---
 
 如何制作一杯美味的手冲咖啡？
-
+<!-- readmore -->
 
 ![Coffe]({{ site.baseurl}}/assets/pics/makecoffe.jpeg "Coffe")
 

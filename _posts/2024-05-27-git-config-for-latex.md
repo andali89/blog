@@ -4,7 +4,7 @@ title: How to control autocrlf for LaTeX in Git
 ---
 
 If you are using LaTeX with TexStudio on windows and need to control the version of the manuscript with Git, the autocrlf option should be turned off.
-
+<!-- readmore -->
 
 The Git option to locally turn off `autocrlf` is below:
 
