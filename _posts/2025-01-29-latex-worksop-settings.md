@@ -3,7 +3,7 @@ layout: post
 title: Setting forward search and inverse search in SumatraPDF for LaTeX-Workshop
 ---
 
-To set up forward and inverse search in SumatraPDF with LaTeX Workshop in Visual Studio Code, follow these steps:
+To set up forward and inverse search in SumatraPDF using LaTeX Workshop extention in Visual Studio Code, follow these steps:
 
 ## Configure SumatraPDF
 
