@@ -10,6 +10,7 @@ To set up forward and inverse search in SumatraPDF using LaTeX Workshop extentio
 1. Open SumatraPDF.
 2. Go to `Settings` > `Options...`.
 3. In the `Inverse Search Command Line` field, enter the following command:
+   
    ```plaintext
    "C:\path\to\Visual Studio Code\Code.exe" -r -g "%f:%l"
    ```
