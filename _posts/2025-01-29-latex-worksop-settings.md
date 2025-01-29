@@ -12,6 +12,7 @@ To set up forward and inverse search in SumatraPDF with LaTeX Workshop in Visual
 3. In the `Inverse Search Command Line` field, enter the following command:
    ```plaintext
    "C:\path\to\Visual Studio Code\Code.exe" -r -g "%f:%l"
+   ```
 
 ## Configure LaTeX Workshop
 
@@ -47,3 +48,4 @@ To set up forward and inverse search in SumatraPDF with LaTeX Workshop in Visual
            "%PDF%"
        ]
    }
+   ```
