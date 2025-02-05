@@ -7,21 +7,21 @@ To set up forward and inverse search in SumatraPDF using LaTeX Workshop extentio
 <!-- readmore -->
 
 ## Configure SumatraPDF
+One of the following two methods can be used:
+1. Method 1
+   a. Open SumatraPDF.
+   b. Go to `Settings` > `Options...`.
+   c. In the `Inverse Search Command Line` field, enter the following command:
+      
+      ```plaintext
+      "C:\path\to\Visual Studio Code\Code.exe" -r -g "%f:%l"
+      ```
 
-1. Open SumatraPDF.
-2. Go to `Settings` > `Options...`.
-3. One of the following two ways can be used:
-    1. In the `Inverse Search Command Line` field, enter the following command:
-   
-   ```plaintext
-   "C:\path\to\Visual Studio Code\Code.exe" -r -g "%f:%l"
-   ```
+2. Input the following text into the `SumatraPDF-settings.txt` file located in the same directory as SumatraPDF:
 
-   2. Input the following text into the `SumatraPDF-settings.txt` file located in the same directory as SumatraPDF:
-
-    ```plaintext
-    InverseSearchCmdLine = "C:\\path\\to\\Visual Studio Code\\Code.exe" "%f" -line %l
-    ``` 
+```plaintext
+InverseSearchCmdLine = "C:\\path\\to\\Visual Studio Code\\Code.exe" "%f" -line %l
+``` 
 
 
 ## Configure LaTeX Workshop
