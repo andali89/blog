@@ -16,18 +16,18 @@ To enable markdown suggestions in your markdown file, you can use the following 
     ```json
     {
         "[markdown]": {
-            // 快速补全
+            // Quick suggestions
             "editor.quickSuggestions": {
-            "other": true,
-            "comments": true,
-            "strings": true
+                "other": true,
+                "comments": true,
+                "strings": true
             },
-            // 显示空格
+            // Show whitespace
             // "editor.renderWhitespace": "all",
-            // snippet 提示优先（看个人喜欢）
+            // Snippet suggestions priority (personal preference)
             "editor.snippetSuggestions": "top",
             "editor.tabCompletion": "on",
-            // 使用enter 接受提示
+            // Use enter to accept suggestions
             // "editor.acceptSuggestionOnEnter": "on",
         },
     }
