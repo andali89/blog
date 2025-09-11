@@ -1,10 +1,10 @@
-# ---
-# layout: post
-# title: Python数据科学入门——第2章：Python IDEs
-# date: 2025-09-11
-# categories: [教程, 工具]
-# tags: [IDE, VSCode, PyCharm, Copilot]
-# ---
+---
+layout: post
+title: Python数据科学入门——第2章：Python IDEs
+date: 2025-09-11
+categories: [教程, 工具]
+tags: [IDE, VSCode, PyCharm, Copilot]
+---
 
 # Python IDEs：选择你的“神兵利器”
 

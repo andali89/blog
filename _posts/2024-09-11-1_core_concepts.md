@@ -1,10 +1,10 @@
-# ---
-# layout: post
-# title: Python数据科学入门——第1章：核心概念
-# date: 2025-09-11
-# categories: [教程, 入门]
-# tags: [Python, Anaconda, Jupyter]
-# ---
+---
+layout: post
+title: Python数据科学入门——第1章：核心概念
+date: 2025-09-11
+categories: [教程, 入门]
+tags: [Python, Anaconda, Jupyter]
+---
 
 # 核心概念
 
