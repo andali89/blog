@@ -20,8 +20,8 @@ tags: [Anaconda, Jupyter, 安装]
    
 2.  **选择操作系统：** 网站会自动检测你的操作系统（Windows, macOS, or Linux），并推荐相应的下载版本。你只需要点击下载按钮即可。
 
-    *   ![Anaconda 官网下载页面，箭头指向下载按钮](img/4_downloadAnaconda.png)
-        *   该截图展示了 Anaconda 官方下载页面，并用箭头标注了推荐的下载按钮。若页面未正确识别你的操作系统，可手动选择 Windows / macOS / Linux 后再点击下载。
+    ![]({{ site.baseurl}}/assets/picspb/4_downloadAnaconda.png "Anaconda 官网下载页面，箭头指向下载按钮")  
+    * 该截图展示了 Anaconda 官方下载页面。若页面未正确识别你的操作系统，请手动选择对应的系统（Windows / macOS / Linux），然后点击相应的下载按钮。*
 
 > **提示：** Anaconda 的安装包比较大（通常在 500MB 以上），下载可能需要一些时间。
 
