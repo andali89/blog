@@ -10,6 +10,8 @@ tags: [Anaconda, Jupyter, 安装]
 
 在了解了基本概念之后，现在让我们动手开始安装 Anaconda。这个过程非常简单，只需要跟随下面的步骤即可。
 
+<!-- readmore -->
+
 ## 下载 Anaconda
 
 首先，我们需要从 Anaconda 的官方网站下载安装包。 
