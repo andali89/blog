@@ -2,7 +2,7 @@
 layout: post
 title: Python数据科学入门——第3章：安装指南
 date: 2025-09-11
-categories: [教程, 环境]
+categories: [教程, 入门]
 tags: [Anaconda, Jupyter, 安装]
 ---
 

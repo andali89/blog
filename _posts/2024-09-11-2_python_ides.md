@@ -2,7 +2,7 @@
 layout: post
 title: Python数据科学入门——第2章：Python IDEs
 date: 2025-09-11
-categories: [教程, 工具]
+categories: [教程, 入门]
 tags: [IDE, VSCode, PyCharm, Copilot]
 ---
 
