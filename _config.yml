@@ -13,8 +13,6 @@ author:
   url:               https://twitter.com/mdo
   email:             markdotto@gmail.com
 
-theme:               jekyll-theme-cayman
-
 # Gems
 plugins:
   - jekyll-paginate
