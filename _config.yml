@@ -14,10 +14,8 @@ author:
   email:             markdotto@gmail.com
 
 # Gems
-remote_theme:         https://github.com/pages-themes/cayman
 plugins:
   - jekyll-paginate
-  - jekyll-remote-theme
 # Custom vars
 version:             1.1.0
 google_analytics_id: #UA-XXXX-Y
